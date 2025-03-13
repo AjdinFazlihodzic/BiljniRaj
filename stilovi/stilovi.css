@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+nav {
+    line-height: 50px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    background-color: #b6ffbb;
+}
+nav ul li{
+    display: inline;
+    margin: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(2, 53, 27);
+    font-size: 20px;
+    line-height: 50px;
+}
+nav ul li a:hover{
+   color: rgb(2, 189, 42);
+}
+.categories {
+    background-color: #b6ffbb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.categories ul{
+    list-style: none;
+    padding: 0;
+}
+
+.categories ul li{
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 10px 10px 5px rgb(131, 167, 132);
+}
+.categories ul li a {
+    text-decoration: none;
+    color: rgb(2, 53, 27);
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: bold;
+}
+.categories ul li a:hover{
+    color: rgb(2, 189, 42);
+}
+.categories h2{
+    margin: 15px;
+    padding-top: 20px;
+}
+button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: white;
+    color: #4CAF50;
+}
+.katalog{
+    height: 320px;
+}
+#hladni{
+    background-image: url("../slike/hladni.jpg");
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+#topli{
+    background-image: url("../slike/topli.jpg");
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+#umirujuci{
+    background-image: url("../slike/topli.jpg");
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+#medicinski{
+    background-image: url("../slike/medicinski.jpg");
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
