@@ -1,7 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
     text-align: center;
+}
+header{
+    padding-top: 30px;
+}
+header p {
+    padding-top: 30px;
 }
 nav {
     line-height: 50px;
@@ -67,8 +77,22 @@ button:hover {
     background: white;
     color: #4CAF50;
 }
+.katalozi{
+    display: flex;
+    flex-direction: column;
+}
 .katalog{
     height: 320px;
+}
+.katalog h2{
+    padding-top: 80px;
+    font-size: 40px;
+}
+.katalog button{
+    background-color: rgba(59, 104, 78, 0.6);
+    height: 60px;
+    width: 130px;
+    font-size: 16px;
 }
 #hladni{
     background-image: url("../slike/hladni.jpg");
@@ -83,7 +107,7 @@ button:hover {
   background-size: cover;
 }
 #umirujuci{
-    background-image: url("../slike/topli.jpg");
+    background-image: url("../slike/umirujuci.jpg");
     background-position: center;
   background-repeat: no-repeat; 
   background-size: cover;
